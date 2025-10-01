@@ -1,0 +1,28 @@
+masala_spices = ("cardamom", "cloves", "cinnamon")
+
+(spice1, spice2, spice3) = masala_spices
+
+print(f"Main masala spices: {spice1}, {spice2}, {spice3}")
+
+ginger_ratio, cadramom_ratio = 2, 1
+print(f"Ratio is G :{ginger_ratio} and C: {cadramom_ratio}")
+ginger_ratio, cadramom_ratio = cadramom_ratio, ginger_ratio
+print(f"Ratio is G :{ginger_ratio} and C: {cadramom_ratio}")
+
+# membership testing
+
+print(f"Is cinnamon in masala spices ? {'cinnamon' in masala_spices}")
+
+# Tuples are immutable sequences in Python, meaning their elements cannot be changed after creation.
+# They are defined by enclosing elements in parentheses () and can contain elements of different data types.
+# Tuples support indexing and slicing, similar to lists, allowing access to individual elements or sub-tuples.
+# However, since tuples are immutable, operations that would modify the tuple (like adding or removing elements) are not allowed.
+# Tuples can be unpacked into individual variables, as shown in the example where the elements of the tuple masala_spices are unpacked into spice1, spice2, and spice3.
+# This allows for easy assignment of multiple variables in a single line.
+# Tuples can also be used for multiple assignments, as demonstrated with ginger_ratio and cadramom_ratio.
+# The swapping of values between ginger_ratio and cadramom_ratio is done in a single line without needing a temporary variable.
+# Membership testing can be performed using the 'in' keyword to check if an element exists within the tuple.
+# This is useful for validating the presence of an item in a collection.
+# Tuples are often used for fixed collections of items, such as coordinates, RGB color values, or other data that should not change throughout the program.
+# They can also be used as keys in dictionaries due to their immutability, unlike lists which are mutable and cannot be used as dictionary keys.
+# Overall, tuples provide a lightweight and efficient way to group related data together while ensuring that the data remains unchanged.
