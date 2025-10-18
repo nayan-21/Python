@@ -18,7 +18,8 @@ total_tea_bags = 7
 pots = 4
 bags_per_pot = total_tea_bags // pots
 print(f"While tea bags per pot: {bags_per_pot}")
-
+# The '//' operator performs floor division, which divides two numbers and rounds down to the nearest whole number.
+# This is useful when you need an integer result, such as when dividing items into groups where partial items are not possible.
 total_cadamom_pods = 10
 pods_per_cup = 3
 leftover_pods = total_cadamom_pods % pods_per_cup
